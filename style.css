@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.btn{
+    /* display:flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin-left: 600px; */
+    /* background-color: red; */
+}
+
+
+
+#inp{
+   width: 100%;
+   
+  
+}
+.head{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; */
+    height: 300px;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+.main{
+    display:grid;
+    /* grid-template-columns: auto auto; */
+    grid-template-columns: 50% 50%;
+  
+}
+.left{
+    margin:5px;
+    padding:15px;
+     display:grid;
+     display:flex;
+     display:inline;
+     align-items: left;
+     justify-content: left;
+}
+.right{
+    margin:5px;
+    padding:15px;
+    display:grid;
+    display:flex;
+    position: relative;
+    justify-content:right;
+    align-items: right;
+    display:inline;
+
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    margin:20px;
+   color:white;
+   /* border: 2px solid red; */
+   width: auto;
+
+
+}
+
+.col-sm{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 15px;
+    width: auto;
+}
+.form-group{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 15px;
+    width: auto;
+}
+
+h1{
+
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aliceblue;
+    text-align: center;
+    /* margin-top: 35px; */
+    
+}
+.input{
+    padding:2px;
+
+}
+img{
+    width:100%;
+    height:100%;
+}
+
+
+
+body{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0, 0.5)50%,rgba(0,0,0,0.5)50%),url(https://medlineplus.gov/images/COVID19_share.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    width: 100vw;
+    color:white;
+    
+}
+
+textarea{
+    color:black;
+
+}
+label{
+    color:black;
+
+}
+h5{
+    color: white;
+    margin: 15px;
+    /* margin-left: 240px; */
+}

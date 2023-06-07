@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Disease</title>
+    <link  rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" rel="stylesheet"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+     crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+            <div class="col">
+                <div class="col-sm">
+                    <h1 class="text-center">COVID 19 Details</h1>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <h5 class="text-center">Type a country name</h5>
+                        <input type="text" class="form-control" id="inp" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Search"><br>
+                        <button type="button" onclick="disease()"  class="btn btn-danger" >Search</button>
+                    </div>  
+                </div>
+                
+            </div>
+        </div>
+        
+        
+
+         
+        <div class="main">
+            
+            <div class="left">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="country"></textarea>
+                    <label for="floatingTextarea">Country</label>
+                </div><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="conti"></textarea>
+                    <label for="floatingTextarea">Continent</label>
+                </div><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="lat"></textarea>
+                    <label for="floatingTextarea">Lat </label>
+                </div><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="long"></textarea>
+                    <label for="floatingTextarea">Long</label>
+                </div><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="pop"></textarea>
+                    <label for="floatingTextarea">Population</label>
+                  </div><br>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="cases"></textarea>
+                    <label for="floatingTextarea">Cases</label>
+                </div>
+             
+              
+            </div>
+            <div class="right">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="death"></textarea>
+                    <label for="floatingTextarea">Deaths</label>
+                  </div><br>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="tdeath"></textarea>
+                    <label for="floatingTextarea">Today Deaths</label>
+                  </div><br>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="reco"></textarea>
+                    <label for="floatingTextarea">Recovered</label>
+                  </div><br>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="treco"></textarea>
+                    <label for="floatingTextarea">Today Recovered</label>
+                  </div><br>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="test"></textarea>
+                    <label for="floatingTextarea">Tests</label>
+                  </div><br>
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="cri"></textarea>
+                    <label for="floatingTextarea">Critical</label>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>  
+  
